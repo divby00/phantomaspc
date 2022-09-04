@@ -1,0 +1,1357 @@
+# translation of phantpc.po to
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER, 2005.
+#
+# Traperic <traperic@gmail.com>, 2005, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: phantpc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-04 10:13+0200\n"
+"PO-Revision-Date: 2022-09-04 10:12+0200\n"
+"Last-Translator: traperic\n"
+"Language-Team: Spanish <kde-i18n-doc@kde.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: 2;\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: src/arrows.c:16
+msgid "- Initiating arrows: "
+msgstr "- Iniciando las flechas: "
+
+#: src/arrows.c:21 src/config.c:186 src/config.c:266 src/control.c:31
+#: src/control.c:212 src/control.c:296 src/control.c:302 src/data.c:32
+#: src/data.c:47 src/editor.c:22 src/editor.c:310 src/enemy.c:27
+#: src/energy.c:22 src/gfx.c:125 src/gfx.c:136 src/gfx.c:143 src/luaphant.c:24
+#: src/menu.c:15 src/mouse.c:19 src/platform.c:18 src/player.c:16
+#: src/program.c:159 src/program.c:272 src/sfx.c:36 src/sfx.c:44 src/sfx.c:54
+#: src/switch.c:15 src/texter.c:21 src/timer.c:18 src/timer.c:92 src/timer.c:94
+#: src/timer.c:96 src/world.c:43
+msgid "Ok.\n"
+msgstr "Bien.\n"
+
+#: src/config.c:17
+msgid "- Initiating configuration: "
+msgstr "- Iniciando la configuración: "
+
+#: src/config.c:137 src/config.c:144
+msgid ""
+"Warning: there's a problem with the configuration file. Assuming defaults.\n"
+msgstr ""
+"Aviso: hay un problema con el archivo de configuración. Se asumen los "
+"valores por defecto.\n"
+
+#: src/config.c:208
+#, c-format
+msgid "Warning: Can't write the configuration file %s.\n"
+msgstr "Aviso: No se puede grabar el fichero de configuración %s.\n"
+
+#: src/config.c:211
+msgid "-- Configuration file for Phantomas PC\n"
+msgstr "-- Fichero de configuración para Phantomas PC\n"
+
+# c:\dev-cpp\PhantomasPC/src/config.c:264
+#: src/config.c:212
+msgid ""
+"-- Lines starting with -- are comments.\n"
+"\n"
+msgstr ""
+"-- Las líneas que comienzan con -- son comentarios.\n"
+"\n"
+
+# c:\dev-cpp\PhantomasPC/src/config.c:267
+#: src/config.c:213
+msgid "-- Horizontal resolution, recommended 320.\n"
+msgstr "-- Resolución horizontal del juego, recomendado 320.\n"
+
+# c:\dev-cpp\PhantomasPC/src/config.c:269
+#: src/config.c:215
+msgid "-- Vertical resolution, recommended 240.\n"
+msgstr "-- Resolución vertical del juego, recomendado 240.\n"
+
+# c:\dev-cpp\PhantomasPC/src/config.c:271
+#: src/config.c:217
+msgid "-- Full screen? 0 -> no, 1 -> yes.\n"
+msgstr "-- ¿Pantalla completa? 0 -> no, 1 -> si.\n"
+
+# c:\dev-cpp\PhantomasPC/src/config.c:271
+#: src/config.c:219
+msgid "-- Stretch screen? 0 -> no, 1 -> yes.\n"
+msgstr "-- ¿Escalar la pantalla? 0 -> no, 1 -> si.\n"
+
+#: src/config.c:221
+msgid "-- Stretch screen to this width.\n"
+msgstr "-- Escalar la pantalla a esta anchura.\n"
+
+#: src/config.c:223
+msgid "-- Stretch screen to this height.\n"
+msgstr "-- Escalar la pantalla a esta altura.\n"
+
+# c:\dev-cpp\PhantomasPC/src/config.c:271
+#: src/config.c:225
+msgid "-- Show tips in the game? 0 -> no, 1 -> yes.\n"
+msgstr "-- ¿Mostrar consejos en el juego ? 0 -> no, 1 -> si.\n"
+
+# c:\dev-cpp\PhantomasPC/src/config.c:290
+#: src/config.c:227
+msgid "-- Enable sounds and music? 0 -> no, 1 -> yes.\n"
+msgstr "-- ¿Activar los sonidos y la música? 0 -> no, 1 -> si.\n"
+
+# c:\dev-cpp\PhantomasPC/src/config.c:290
+#: src/config.c:229
+msgid "-- Enable sound effects? 0 -> no, 1 -> yes.\n"
+msgstr "-- ¿Activar los efectos de sonido? 0 -> no, 1 -> si.\n"
+
+# c:\dev-cpp\PhantomasPC/src/config.c:290
+#: src/config.c:231
+msgid "-- Enable music? 0 -> no, 1 -> yes.\n"
+msgstr "-- ¿Activar la música? 0 -> no, 1 -> si.\n"
+
+#: src/config.c:233
+msgid "-- Sound effects volume 0 (min.) - 255 (max.)\n"
+msgstr "-- Volumen de los efectos de sonido 0 (min) - 255 (max.)\n"
+
+#: src/config.c:235
+msgid "-- Music volume 0 (min.) - 255 (max.)\n"
+msgstr "-- Volumen de la música 0 (min) - 255 (max.)\n"
+
+#: src/config.c:237
+msgid "-- Surround sound.\n"
+msgstr "-- Sonido envolvente.\n"
+
+#: src/config.c:239
+msgid "-- Control type, 0 keyboard, 1 joystick.\n"
+msgstr "-- Tipo de control, 0 teclado, 1 joystick.\n"
+
+#: src/config.c:241
+msgid "-- Scan code of key for UP.\n"
+msgstr "-- Código de la tecla para ARRIBA.\n"
+
+#: src/config.c:243
+msgid "-- Scan code of key for DOWN.\n"
+msgstr "-- Código de la tecla para ABAJO.\n"
+
+#: src/config.c:245
+msgid "-- Scan code of key for LEFT.\n"
+msgstr "-- Código de la tecla para IZQUIERDA.\n"
+
+#: src/config.c:247
+msgid "-- Scan code of key for RIGHT.\n"
+msgstr "-- Código de la tecla para DERECHA.\n"
+
+#: src/config.c:249
+msgid "-- Directory with the game data.\n"
+msgstr "-- Directorio con los datos del juego.\n"
+
+#: src/config.c:259
+msgid "- Initiating temporal configuration: "
+msgstr "- Iniciando la configuración temporal: "
+
+#: src/control.c:25
+msgid "- Initiating control: "
+msgstr "- Iniciando los controles: "
+
+#: src/control.c:205
+msgid "- Initiating joystick: "
+msgstr "- Iniciando el joystick: "
+
+#: src/control.c:208 src/menu.c:12 src/mouse.c:16 src/program.c:161
+#: src/timer.c:92 src/timer.c:94 src/timer.c:96
+msgid "Error.\n"
+msgstr "Error.\n"
+
+#: src/control.c:292
+msgid "- Changing the graphic mode: "
+msgstr "- Cambiando el modo gráfico: "
+
+# c:\dev-cpp\PhantomasPC/src/control.c:156
+#: src/control.c:298
+msgid "Error. Returning to previous graphic mode: "
+msgstr "Error. Volviendo al modo gráfico anterior: "
+
+#: src/control.c:300
+msgid "Error, aborting program...\n"
+msgstr "Error, abortando el programa...\n"
+
+#: src/control.c:311 src/data.c:263 src/gfx.c:86 src/gfx.c:106 src/gfx.c:115
+#: src/gfx.c:119 src/gfx.c:123
+msgid "Phantomas PC 1.3"
+msgstr "Phantomas PC 1.3"
+
+#: src/control.c:414
+msgid "High jump"
+msgstr "Salto alto"
+
+#: src/control.c:414
+msgid "Long jump"
+msgstr "Salto largo"
+
+#: src/control.c:414
+msgid "Left"
+msgstr "Izquierda"
+
+#: src/control.c:414
+msgid "Right"
+msgstr "Derecha"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/control.c:244
+#: src/control.c:421 src/menu.c:147
+msgid "Redefine keys"
+msgstr "Redefinir las teclas"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/control.c:252
+#: src/control.c:428
+#, c-format
+msgid "Press a key for %s"
+msgstr "Pulsa una tecla para %s"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/control.c:284
+#: src/control.c:461
+msgid "Yes"
+msgstr "Si"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/control.c:284
+#: src/control.c:461
+msgid "No"
+msgstr "No"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/menu.c:91
+#: src/control.c:464
+msgid "Return to the game menu"
+msgstr "Volver al menú del juego"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/control.c:297
+#: src/control.c:468
+#, c-format
+msgid "Are you sure you want to restart the game? %s/%s"
+msgstr "¿Estás seguro de que quieres recomenzar? %s/%s"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/control.c:297
+#: src/control.c:470
+msgid "Are you sure you want to restart the game?"
+msgstr "¿Estás seguro de que quieres empezar? %s/%s"
+
+#: src/control.c:471
+msgid "A - Yes, Y - No"
+msgstr "A - Si, Y - No"
+
+#: src/data.c:19
+msgid "- Initiating data: "
+msgstr "- Iniciando los datos: "
+
+#: src/data.c:38
+#, c-format
+msgid "- Loading data file %s: "
+msgstr "- Cargando el fichero de datos %s: "
+
+#: src/data.c:44
+#, c-format
+msgid "Fatal error: Can't load the file: %s."
+msgstr "Error fatal: no se puede cargar el fichero %s."
+
+#: src/data.c:265
+msgid "Phantomas 2X"
+msgstr "Phantomas 2X"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/intro.c:38
+# c:\ppc\PhantomasPC-0.2-devel\src/intro.c:41
+#: src/data.c:268
+msgid "Original game by Dinamic Software."
+msgstr "Juego original por Dinamic Software."
+
+#: src/data.c:270
+msgid "All trademarks are copyright of their respective authors."
+msgstr "Todas las marcas son propiedad de sus respectivos autores."
+
+#: src/data.c:272
+msgid "2005-2010 Traperic Software."
+msgstr "2005-2010 Traperic Software."
+
+#: src/editor.c:16
+msgid "- Initiating editor: "
+msgstr "- Iniciando el editor: "
+
+#: src/editor.c:199
+msgid "Off"
+msgstr "Desactivado"
+
+#: src/editor.c:199
+msgid "On"
+msgstr "Activado"
+
+#: src/editor.c:203
+msgid "Phantomas PC Editor. Press F1 for help."
+msgstr "Editor de Phantomas PC. Pulsa F1 para ayuda."
+
+#: src/editor.c:216
+#, c-format
+msgid "Room:%d  X:%d  Y:%d  Item:%d  Image mode: %s"
+msgstr "Hab:%d  X:%d  Y:%d  Item:%d  Modo imagen: %s"
+
+#: src/editor.c:296
+#, c-format
+msgid "- Loading editor auxiliar data file %sphanted.dat: "
+msgstr "- Cargando el fichero de datos auxiliar del editor %sphanted.dat: "
+
+#: src/editor.c:306
+msgid "Warning: Can't find file. Disabling the use of phanted.dat.\n"
+msgstr ""
+"Aviso: no se puede encontrar el fichero. Desactivando el uso de phanted."
+"dat.\n"
+
+#: src/enemy.c:16
+msgid "- Initiating enemies: "
+msgstr "- Iniciando los enemigos: "
+
+#: src/energy.c:17
+msgid "- Initiating energy: "
+msgstr "- Iniciando la energía: "
+
+#: src/game.c:139
+msgid "- Entering main loop...\n"
+msgstr "- Entrando en el bucle principal...\n"
+
+#: src/game.c:928
+msgid "SFX volume"
+msgstr "Volumen de los efectos de sonido"
+
+#: src/game.c:944 src/menu.c:133
+msgid "Music volume"
+msgstr "Volumen de la música"
+
+#: src/game.c:956
+msgid "Volume"
+msgstr "Volumen"
+
+#: src/game.c:971
+msgid "Control device set to keyboard."
+msgstr "Dispositivo de control: teclado."
+
+#: src/game.c:976
+msgid "Control device set to joystick."
+msgstr "Dispositivo de control: josytick."
+
+#: src/game.c:982
+msgid "Surround: On."
+msgstr "Envolvente activado."
+
+#: src/game.c:983
+msgid "Surround: Off."
+msgstr "Envolvente desactivado."
+
+#: src/game.c:988
+msgid "Show tips: On."
+msgstr "Mostrar consejos activado."
+
+#: src/game.c:989
+msgid "Show tips: Off."
+msgstr "Mostrar consejos desactivado."
+
+#: src/game.c:1256 src/game.c:1927
+#, c-format
+msgid "You have completed %d percent of the adventure."
+msgstr "Has completado el %d por ciento de la aventura."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/game.c:624
+# c:\ppc\PhantomasPC-0.2-devel\src/game.c:630
+#: src/game.c:1258 src/game.c:1928
+#, c-format
+msgid "Your score: %d points."
+msgstr "Tu puntuación: %d puntos."
+
+#: src/game.c:1261 src/game.c:1931
+msgid "Press any key to continue..."
+msgstr "Pulsa cualquier tecla para continuar..."
+
+#: src/game.c:1263 src/game.c:1933
+msgid "Press X to continue..."
+msgstr "Pulsa X para continuar..."
+
+#: src/game.c:1493
+msgid "You are in Goldter's mansion."
+msgstr "Estás en la mansión de Goldter."
+
+#: src/game.c:1495
+msgid "Your mission is to steal the safe box"
+msgstr "Tu misión es robar la caja fuerte"
+
+#: src/game.c:1496
+msgid "and the treasure chest."
+msgstr "y el cofre del tesoro."
+
+#: src/game.c:1497
+msgid "Good luck."
+msgstr "Buena suerte."
+
+#: src/game.c:1500
+msgid "When enemies hit Phantomas,"
+msgstr "Cuando los enemigos tocan a Phantomas,"
+
+#: src/game.c:1501
+msgid "the energy bar gets darker."
+msgstr "la barra de energía se oscurece."
+
+#: src/game.c:1502
+msgid "When it gets totally dark,"
+msgstr "Cuando se oscurezca totalmente,"
+
+#: src/game.c:1503
+msgid "Phantomas will be destroyed!"
+msgstr "¡Phantomas será destruido!"
+
+#: src/game.c:1506
+msgid "Energy capsules allow Phantomas"
+msgstr "Las cápsulas de energía permiten a Phantomas"
+
+#: src/game.c:1507
+msgid "to get some extra energy."
+msgstr "recuperar algo de energía."
+
+#: src/game.c:1508
+msgid "There are only a few."
+msgstr "Solo hay unas pocas."
+
+#: src/game.c:1511
+msgid "These switches open the safe box."
+msgstr "Estos interruptores abren la caja fuerte."
+
+#: src/game.c:1512
+msgid "You have to push all of them or"
+msgstr "Tienes que pulsar todos o"
+
+#: src/game.c:1513
+msgid "you won't be able to open it."
+msgstr "no la podrás abrir."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/game.c:621
+# c:\ppc\PhantomasPC-0.2-devel\src/game.c:627
+#: src/game.c:1516
+msgid "You have pressed every switch!"
+msgstr "¡Has pulsado todos los interruptores!"
+
+#: src/game.c:1517
+msgid "You can get the safe now!"
+msgstr "¡Ahora puedes ir a por la caja fuerte!"
+
+#: src/game.c:1518
+msgid "It should be in Goldter's office."
+msgstr "Debería estar en la oficina de Goldter."
+
+#: src/game.c:1521
+msgid "Great! You got the safe!!"
+msgstr "¡Genial!¡has conseguido la caja fuerte!"
+
+#: src/game.c:1524
+msgid "You should go for the treasure now!"
+msgstr "¡Ahora deberías ir a por el tesoro!"
+
+#: src/game.c:1525
+msgid "Surely it is in the gauntlet."
+msgstr "Seguramente estará en las mazmorras."
+
+#: src/game.c:1527
+msgid "Let's run to the exit!"
+msgstr "¡Corramos a la salida!"
+
+#: src/game.c:1531
+msgid "It's a trap!!!"
+msgstr "¡¡Es una trampa!!"
+
+#: src/game.c:1533
+msgid "Press left and right to run!!"
+msgstr "¡¡Pulsa izquierda-derecha para correr!!"
+
+#: src/game.c:1535
+msgid "Press and release B button to run!!"
+msgstr "¡¡Pulsa y suelta el botón B para correr!!"
+
+#: src/game.c:1544 src/game.c:1862 src/records.c:169
+msgid "Press Enter to continue..."
+msgstr "Pulsa Intro para continuar..."
+
+#: src/game.c:1546 src/game.c:1864 src/records.c:171
+msgid "Press A to continue..."
+msgstr "Pulsa A para continuar..."
+
+#: src/game.c:1762 src/game.c:1776
+msgid "Good try Phantomas."
+msgstr "Buen intento Phantomas."
+
+#: src/game.c:1763 src/game.c:1777
+msgid "Maybe next time..."
+msgstr "Quizás la próxima vez..."
+
+#: src/game.c:1790 src/game.c:1802
+msgid "...Shit!"
+msgstr "...¡Mierda!"
+
+#: src/game.c:1843
+msgid "Phantomas PC, a remake of Phantomas."
+msgstr "Phantomas PC, un remake de Phantomas."
+
+#: src/game.c:1844
+msgid "2005-2011 Traperic Software."
+msgstr "2005-2011 Traperic Software."
+
+#: src/game.c:1847
+msgid "This is the end... at the moment..."
+msgstr "Este es el fin... de momento..."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/main.c:38
+#: src/game.c:1850
+msgid "Hope you enjoy this game!"
+msgstr "¡Espero que te guste este juego!"
+
+#: src/gfx.c:22
+msgid "windowed"
+msgstr "en ventana"
+
+#: src/gfx.c:22
+msgid "at fullscreen"
+msgstr "a pantalla completa"
+
+#: src/gfx.c:54 src/gfx.c:57 src/gfx.c:66
+#, c-format
+msgid "- Initiating graphic mode (%d x %d @ 16 bpp, running %s): "
+msgstr "- Iniciando el modo gráfico (%d x %d @ 16 bpp, ejecutándose %s): "
+
+#: src/gfx.c:79 src/gfx.c:99
+msgid "Error: Can't set the graphic mode.\n"
+msgstr "Error: No se puede iniciar el modo gráfico.\n"
+
+# c:\dev-cpp\PhantomasPC/src/gfx.c:56
+# c:\dev-cpp\PhantomasPC/src/gfx.c:81
+#: src/gfx.c:81 src/gfx.c:101
+msgid "- Trying windowed mode: "
+msgstr "- Intentando modo en ventana: "
+
+#: src/gfx.c:83 src/gfx.c:92 src/gfx.c:103 src/gfx.c:112
+msgid "Fatal error.\n"
+msgstr "Error fatal.\n"
+
+# c:\dev-cpp\PhantomasPC/src/gfx.c:65
+# c:\dev-cpp\PhantomasPC/src/gfx.c:90
+#: src/gfx.c:90 src/gfx.c:110
+msgid "- Trying fullscreen mode: "
+msgstr "- Intentando modo a pantalla completa: "
+
+#: src/gfx.c:126
+#, c-format
+msgid "- Initiating the virtual screens (%d x %d): "
+msgstr "- Iniciando las pantallas virtuales (%d x %d): "
+
+#: src/gfx.c:131
+msgid "Fatal error: Can't create the virtual screens.\n"
+msgstr "Error fatal: No se pueden Iniciando las pantallas virtuales.\n"
+
+#: src/gfx.c:138
+msgid "- Initiating phantomas helper: "
+msgstr "- Iniciando el sprite ayudante de Phantomas: "
+
+#: src/gfx.c:141
+msgid "Error: Can't create the phantomas helper sprite.\n"
+msgstr "Error: No se puede crear el sprite ayudante para Phantomas.\n"
+
+#: src/log.c:46
+msgid ""
+"\n"
+"\n"
+"- - - Begin the log - - -\n"
+msgstr ""
+"\n"
+"\n"
+"- - - Comenzar el registro - - -\n"
+
+#: src/log.c:48
+#, c-format
+msgid "Date and time: %s\n"
+msgstr "Fecha y hora: %s\n"
+
+#: src/log.c:65
+#, c-format
+msgid ""
+"- Fatal error: memory allocation error, module: log.c, function: "
+"ph_log_memory_error, pointer: aux, %ld bytes.\n"
+msgstr ""
+"- Error fatal: Error de asignación de memoria, módulo: log.c, función: "
+"ph_log_memory_error, puntero: aux, %ld bytes.\n"
+
+#: src/log.c:71
+#, c-format
+msgid ""
+"- Fatal error: memory allocation error, module: %s, function: %s, pointer: "
+"%s, %ld bytes.\n"
+msgstr ""
+"- Error fatal: Error de asignación de memoria, módulo: %s, función %s, "
+"puntero: %s, %ld bytes.\n"
+
+#: src/luaphant.c:18
+msgid "- Initiating Lua: "
+msgstr "- Iniciando Lua: "
+
+#: src/luaphant.c:21
+msgid "Fatal error: Can't init Lua.\n"
+msgstr "Error fatal: no se puede iniciar Lua.\n"
+
+#: src/luaphant.c:100
+#, c-format
+msgid "Fatal error: Can't find the file %s."
+msgstr "Error fatal: no se puede encontrar el fichero %s."
+
+#: src/luaphant.c:111
+msgid "Fatal error: Size doesn't match."
+msgstr "Error fatal: el tamaño no concuerda."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/main.c:37
+#: src/main.c:89
+msgid ""
+"\n"
+"\n"
+"Phantomas PC 1.3 by Traperic Software.\n"
+msgstr ""
+"\n"
+"\n"
+"Phantomas PC 1.3 por Traperic Software.\n"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/main.c:38
+#: src/main.c:91
+msgid ""
+"I hope you enjoy this game!\n"
+"\n"
+msgstr ""
+"¡Espero que te guste este juego!\n"
+"\n"
+
+#: src/menu.c:9
+msgid "- Initiating menu: "
+msgstr "- Iniciando el menú: "
+
+# c:\ppc\PhantomasPC-0.2-devel\src/menu.c:73
+#: src/menu.c:70
+msgid "Play"
+msgstr "Jugar"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/menu.c:74
+# c:\ppc\PhantomasPC-0.2-devel\src/menu.c:108
+#: src/menu.c:71 src/menu.c:83 src/menu.c:87 src/menu.c:99 src/menu.c:103
+#: src/menu.c:180
+msgid "Game options"
+msgstr "Opciones del juego"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/menu.c:76
+#: src/menu.c:72
+msgid "Exit"
+msgstr "Salir"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/menu.c:105
+#: src/menu.c:84 src/menu.c:100 src/menu.c:114
+msgid "Screen options"
+msgstr "Opciones de la pantalla"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/menu.c:106
+#: src/menu.c:85 src/menu.c:101 src/menu.c:124 src/menu.c:211
+msgid "Sound options"
+msgstr "Opciones del sonido"
+
+#: src/menu.c:86 src/menu.c:102 src/menu.c:145
+msgid "Control options"
+msgstr "Opciones de control"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/menu.c:91
+#: src/menu.c:88 src/menu.c:104
+msgid "Return to main menu"
+msgstr "Volver al menú principal"
+
+#: src/menu.c:115 src/menu.c:170
+msgid "Fullscreen"
+msgstr "Pantalla completa"
+
+#: src/menu.c:116 src/menu.c:191
+msgid "Resolution"
+msgstr "Resolución"
+
+#: src/menu.c:117 src/menu.c:231
+msgid "Scanlines"
+msgstr "Scanlines"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/menu.c:91
+#: src/menu.c:118 src/menu.c:136 src/menu.c:148 src/menu.c:182
+msgid "Return to options menu"
+msgstr "Volver al menú de opciones"
+
+#: src/menu.c:131
+msgid "Music"
+msgstr "Música"
+
+#: src/menu.c:132
+msgid "Sound effects"
+msgstr "Efectos de sonido"
+
+#: src/menu.c:134
+msgid "Sound effect volume"
+msgstr "Volumen de los efectos de sonido"
+
+#: src/menu.c:135 src/menu.c:221
+msgid "Surround"
+msgstr "Envolvente"
+
+#: src/menu.c:146 src/menu.c:157
+msgid "Control type"
+msgstr "Tipo de control"
+
+#: src/menu.c:158
+msgid "Keyboard"
+msgstr "Teclado"
+
+#: src/menu.c:159
+msgid "Joystick"
+msgstr "Joystick"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/menu.c:91
+#: src/menu.c:160
+msgid "Return to control menu"
+msgstr "Volver al menú de controles"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/menu.c:105
+#: src/menu.c:169
+msgid "Fullscreen options"
+msgstr "Opciones de pantalla completa"
+
+#: src/menu.c:171
+msgid "Windowed"
+msgstr "En ventana"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/menu.c:91
+#: src/menu.c:172 src/menu.c:194 src/menu.c:234
+msgid "Return to screen menu"
+msgstr "Volver al menú de la pantalla"
+
+#: src/menu.c:181 src/menu.c:242
+msgid "Show tips"
+msgstr "Mostrar consejos"
+
+#: src/menu.c:192
+msgid "320 x 240"
+msgstr "320 x 240"
+
+#: src/menu.c:193
+msgid "640 x 480"
+msgstr "640 x 480"
+
+#: src/menu.c:201
+msgid "Music options"
+msgstr "Opciones de la música"
+
+#: src/menu.c:202
+msgid "Music on"
+msgstr "Música activada"
+
+#: src/menu.c:203
+msgid "Music off"
+msgstr "Música desactivada"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/menu.c:91
+#: src/menu.c:204 src/menu.c:214 src/menu.c:224
+msgid "Return to sound menu"
+msgstr "Volver al menú de sonido"
+
+#: src/menu.c:212
+msgid "Sound effects on"
+msgstr "Efectos de sonido activados"
+
+#: src/menu.c:213
+msgid "Sound effects off"
+msgstr "Efectos de sonido desactivados"
+
+#: src/menu.c:222
+msgid "Surround effect on"
+msgstr "Efecto envolvente activado"
+
+#: src/menu.c:223
+msgid "Surround effect off"
+msgstr "Efecto envolvente desactivado"
+
+#: src/menu.c:232
+msgid "Scanlines on"
+msgstr "Scanlines activadas"
+
+#: src/menu.c:233
+msgid "Scanlines off"
+msgstr "Scanlines desactivadas"
+
+#: src/menu.c:241
+msgid "Tips"
+msgstr "Consejos"
+
+#: src/menu.c:243
+msgid "Don't show the tips"
+msgstr "Ocultar los consejos"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/menu.c:91
+#: src/menu.c:244
+msgid "Return to game menu"
+msgstr "Volver al menú del juego"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/intro.c:38
+# c:\ppc\PhantomasPC-0.2-devel\src/intro.c:41
+#: src/menu2.c:13
+msgid "Original game made by Enric Cervera."
+msgstr "Juego original creado por Enric Cervera."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/intro.c:38
+# c:\ppc\PhantomasPC-0.2-devel\src/intro.c:41
+#: src/menu2.c:13
+msgid "Original game distributed by Dinamic Software."
+msgstr "Juego original distribuido por Dinamic Software."
+
+#: src/menu2.c:14
+msgid "Remake made by the following people:"
+msgstr "Reconstrucción creada por las siguientes personas:"
+
+#: src/menu2.c:14
+msgid "Program: Traperic."
+msgstr "Programa: Traperic."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/intro.c:39
+# c:\ppc\PhantomasPC-0.2-devel\src/intro.c:42
+#: src/menu2.c:15
+msgid "Graphics: Na_th_an and Traperic."
+msgstr "Gráficos: Na_th_an y Traperic."
+
+#: src/menu2.c:15
+msgid "Music: Addax."
+msgstr "Música:  Addax."
+
+#: src/menu2.c:15
+msgid "SFX: Traperic."
+msgstr "Efectos de sonido: Traperic."
+
+#: src/menu2.c:16
+msgid "Mac port: The Evangelist."
+msgstr "Port a Mac: The Evangelist."
+
+#: src/menu2.c:16
+msgid "MS-Dos, Windows and GP2X ports: Traperic."
+msgstr "Portabilidad a MS-Dos, Windows y GP2X: Traperic."
+
+#: src/menu2.c:16
+msgid "Thanks to:"
+msgstr "Agradecimientos:"
+
+#: src/menu2.c:17
+msgid "Miguel Angel Jimenez (M.A. Software)"
+msgstr "Miguel Angel Jiménez (M.A. Software)"
+
+#: src/menu2.c:17
+msgid "Popolon (Brain Games)"
+msgstr "Popolon (Brain Games)"
+
+#: src/menu2.c:17
+msgid "David Gonzalez"
+msgstr "David González"
+
+#: src/menu2.c:18
+msgid "ParkyDR"
+msgstr "ParkyDR"
+
+#: src/menu2.c:18
+msgid "Special thanks to:"
+msgstr "Agradecimientos especiales para:"
+
+#: src/menu2.c:18
+msgid "Enric Cervera for beginning the legend."
+msgstr "Enric Cervera por comenzar la leyenda."
+
+#: src/menu2.c:19
+msgid "And to everybody who has get interest in this game."
+msgstr "Y a toda la gente que ha mostrado interés en este juego."
+
+#: src/menu2.c:19
+msgid "Enjoy with Phantomas!"
+msgstr "¡Disfruta con Phantomas!"
+
+#: src/menu2.c:202
+msgid "PRESS ENTER TO PLAY!"
+msgstr "¡PULSA INTRO PARA JUGAR!"
+
+#: src/menu2.c:204
+msgid "PRESS START TO PLAY!"
+msgstr "¡PULSA START PARA JUGAR!"
+
+#: src/menu2.c:209
+msgid "PRESS SPACE TO SHOW THE HELP"
+msgstr "PULSA ESPACIO PARA MOSTRAR LA AYUDA"
+
+#: src/menu2.c:211
+msgid "PRESS SELECT TO SHOW THE HELP"
+msgstr "PULSA SELECT PARA MOSTRAR LA AYUDA"
+
+#: src/menu2.c:215
+msgid "PRESS CONTROL+Q TO QUIT"
+msgstr "PULSA CONTROL+Q PARA QUITAR"
+
+#: src/menu2.c:217
+msgid "PRESS SELECT+START TO QUIT"
+msgstr "PULSA SELECT+START PARA QUITAR"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:56
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:59
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:62
+#: src/menu2.c:257 src/menu2.c:260 src/menu2.c:263
+#, c-format
+msgid "Instructions %d/3"
+msgstr "Instrucciones %d/3"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:65
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:68
+#: src/menu2.c:266
+msgid "Keyboard shortcuts 1/2"
+msgstr "Atajos de teclado 1/2"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:65
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:68
+#: src/menu2.c:269
+msgid "Keyboard shortcuts 2/2"
+msgstr "Atajos de teclado 2/2"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:81
+#: src/menu2.c:279
+msgid "First of all, you have to press all the switches!."
+msgstr "Antes de nada, debes pulsar todos los interruptores."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:82
+#: src/menu2.c:280
+msgid "When done, go for the safe."
+msgstr "Cuando esté hecho, vé a por la caja fuerte."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:83
+#: src/menu2.c:281
+msgid "After that, take the treasure!"
+msgstr "¡Después, pilla el tesoro!"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:84
+#: src/menu2.c:282
+msgid "And then run to the exit!!!... sounds easy, doesn't it?"
+msgstr "Y entonces, ¡corre a la salida!... ¿parece fácil, verdad?"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:89
+#: src/menu2.c:287
+msgid "Unfortunately, there are some 'things' that won't"
+msgstr "Desafortunadamente, hay algunas 'cosas' que no permitirán"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:90
+#: src/menu2.c:288
+msgid "let your journey to be a pleasant trip."
+msgstr "que tu aventura sea un viaje de placer."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:91
+#: src/menu2.c:289
+msgid "Like this for example, say hello to Peposo beard."
+msgstr "Como éste por ejemplo, saluda al oso Peposo."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:92
+#: src/menu2.c:290
+msgid "Don't trust him with that angelical face!"
+msgstr "¡No te fíes de esa cara angelical!"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:93
+#: src/menu2.c:291
+msgid "He and the others will drain your energy!"
+msgstr "¡El y los demás absorberán tu energía!"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:97
+#: src/menu2.c:295
+msgid "You can use the energy capsules to recover some energy."
+msgstr "Usa las cápsulas de energí­a para recuperar algo de vida."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:98
+#: src/menu2.c:296
+msgid "And use your high and long jump to avoid enemies."
+msgstr "Y usa tus saltos alto y largo para evitar a los enemigos."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:99
+#: src/menu2.c:297
+msgid "This is all you have to know to play."
+msgstr "Esto es todo lo que tienes que saber para jugar."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:108
+#: src/menu2.c:300
+msgid "Alt+Enter -> Fullscreen / Windowed mode."
+msgstr "Alt+Enter: Pantalla completa / Ventana."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/menu.c:91
+#: src/menu2.c:301
+msgid "ESC -> Return to the main menu."
+msgstr "ESC -> Volver al menú principal."
+
+#: src/menu2.c:302
+msgid "+ / - -> Sfx volume up and down."
+msgstr "+ / - -> Subir y bajar el volumen del sonido."
+
+#: src/menu2.c:303
+msgid "Pg.up / pg.dwn -> Music volume up and down."
+msgstr "Av. Pg / Re. Pg -> Subir y bajar la música."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:104
+#: src/menu2.c:304
+msgid "F8 -> Redefine keys."
+msgstr "F8 -> Redefinir las teclas."
+
+#: src/menu2.c:305
+msgid "F9 -> Change control type."
+msgstr "F9 -> Cambiar el tipo de control."
+
+#: src/menu2.c:306
+msgid "F10 -> Surround effect."
+msgstr "F10 -> Efecto envolvente."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:106
+#: src/menu2.c:309
+msgid "F12 -> Take snapshot."
+msgstr "F12 -> Hacer una captura de pantalla."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:112
+#: src/menu2.c:310
+msgid "Control+Q -> Finish the game."
+msgstr "Control+Q: Quitar el juego."
+
+#: src/mouse.c:8
+msgid "- Initiating mouse: "
+msgstr "- Iniciando el ratón: "
+
+#: src/path.c:46 src/path.c:65
+#, c-format
+msgid "- Error: According to function ph_get_path the file %s doesn't exist.\n"
+msgstr ""
+"- Error: De acuerdo a la función ph_get_path el fichero %s no existe.\n"
+
+#: src/platform.c:12
+msgid "- Initiating platforms: "
+msgstr "- Iniciando las plataformas: "
+
+#: src/player.c:10
+msgid "- Initiating player: "
+msgstr "- Iniciando el jugador: "
+
+#: src/program.c:40
+msgid "Error: There's no memory!\n"
+msgstr "Error: ¡No hay memoria!\n"
+
+#: src/program.c:79
+msgid "- Initiating Phantomas PC...\n"
+msgstr "- Iniciando Phantomas PC...\n"
+
+#: src/program.c:156
+msgid "- Saving the configuration: "
+msgstr "- Grabando la configuración: "
+
+#: src/program.c:163
+msgid "- Saving the record table...\n"
+msgstr "- Grabando la tabla de récords...\n"
+
+#: src/program.c:165
+msgid "- Destroying Lua...\n"
+msgstr "- Destruyendo Lua...\n"
+
+#: src/program.c:169
+msgid "- Destroying editor...\n"
+msgstr "- Destruyendo el editor...\n"
+
+#: src/program.c:171
+msgid "- Destroying world...\n"
+msgstr "- Destruyendo el mundo...\n"
+
+#: src/program.c:173
+msgid "- Destroying platforms...\n"
+msgstr "- Destruyendo las plataformas...\n"
+
+#: src/program.c:175
+msgid "- Destroying switches...\n"
+msgstr "- Destruyendo los interruptores...\n"
+
+#: src/program.c:177
+msgid "- Destroying energy...\n"
+msgstr "- Destruyendo la energía...\n"
+
+#: src/program.c:179
+msgid "- Destroying enemies...\n"
+msgstr "- Destruyendo los enemigos...\n"
+
+#: src/program.c:181
+msgid "- Destroying arrows...\n"
+msgstr "- Destruyendo las flechas...\n"
+
+#: src/program.c:183
+msgid "- Destroying block...\n"
+msgstr "- Destruyendo el bloque...\n"
+
+#: src/program.c:185
+msgid "- Destroying ball...\n"
+msgstr "- Destruyendo la bola...\n"
+
+#: src/program.c:187
+msgid "- Destroying hand...\n"
+msgstr "- Destruyendo la mano...\n"
+
+#: src/program.c:189
+msgid "- Destroying vehicles...\n"
+msgstr "- Destruyendo los vehículos...\n"
+
+#: src/program.c:191
+msgid "- Destroying player...\n"
+msgstr "- Destruyendo el jugador...\n"
+
+#: src/program.c:193
+msgid "- Destroying control...\n"
+msgstr "- Destruyendo los controles...\n"
+
+#: src/program.c:196
+msgid "- Destroying mouse...\n"
+msgstr "- Destruyendo el ratón...\n"
+
+#: src/program.c:199
+msgid "- Destroying timers...\n"
+msgstr "- Destruyendo los temporizadores...\n"
+
+#: src/program.c:201
+msgid "- Destroying graphics...\n"
+msgstr "- Destruyendo los gráficos...\n"
+
+#: src/program.c:203
+msgid "- Destroying sound...\n"
+msgstr "- Destruyendo el sonido...\n"
+
+#: src/program.c:205
+msgid "- Destroying data...\n"
+msgstr "- Destruyendo los datos...\n"
+
+#: src/program.c:207
+msgid "- Destroying menu...\n"
+msgstr "- Destruyendo el menú...\n"
+
+#: src/program.c:209
+msgid "- Destroying fonts...\n"
+msgstr "- Destruyendo los tipos de letra...\n"
+
+#: src/program.c:211
+msgid "- Destroying records...\n"
+msgstr "- Destruyendo los records...\n"
+
+#: src/program.c:213
+msgid "- Destroying configuration...\n"
+msgstr "- Destruyendo la configuración...\n"
+
+#: src/program.c:216
+msgid "- Destroying program...\n"
+msgstr "- Destruyendo el programa...\n"
+
+#: src/program.c:218
+msgid "- Exiting...\n"
+msgstr "- Saliendo...\n"
+
+#: src/program.c:231
+msgid "- Parsing the command line: "
+msgstr "- Analizando la línea de comandos: "
+
+#: src/program.c:264
+msgid "The arguments you passed seem to be invalid. Try these:\n"
+msgstr "Los argumentos que has pasado parecen inválidos. Prueba estos:\n"
+
+#: src/program.c:265
+msgid "    setup - run the setup script.\n"
+msgstr "    setup - ejecutar el script de configuración.\n"
+
+#: src/program.c:266
+msgid "    editor - run the level editor.\n"
+msgstr "    editor - ejecutar el editor de niveles.\n"
+
+#: src/program.c:267
+msgid "    nosound - disable the sound.\n"
+msgstr "    nosound - desactivar el sonido.\n"
+
+#: src/program.c:268
+msgid "    nosfx - disable the sound effects.\n"
+msgstr "    nosfx - desactivar los efectos de sonido.\n"
+
+#: src/program.c:269
+msgid "    nomusic - disable the music.\n"
+msgstr "    nomusic - desactivar la música.\n"
+
+#: src/program.c:270
+msgid ""
+"    joystick - use a joystick if it is available.\n"
+"\n"
+msgstr ""
+"    joystick - usar un joystick si está disponible.\n"
+"\n"
+
+#: src/records.c:113
+#, c-format
+msgid "Error: Can't write the records file: %s.\n"
+msgstr "Aviso: No se puede grabar el fichero de records %s.\n"
+
+#: src/records.c:165
+msgid "The best players"
+msgstr "Los mejores jugadores"
+
+#: src/records.c:390
+msgid "You have got a high score!!"
+msgstr "¡¡Has conseguido una buena puntuación!!"
+
+#: src/records.c:392
+msgid "Input your name"
+msgstr "Introduce tu nombre"
+
+#: src/records.c:394
+msgid "Select END when finished"
+msgstr "Selecciona END cuando termines"
+
+#: src/sfx.c:16
+msgid "- Sound disabled.\n"
+msgstr "- Sonido desactivado.\n"
+
+#: src/sfx.c:25
+msgid "- Initiating sound system: "
+msgstr "- Iniciando el sistema de sonido: "
+
+#: src/sfx.c:31
+msgid "Error initiating sound system.\n"
+msgstr "Error iniciando el sistema de sonido.\n"
+
+#: src/sfx.c:39
+msgid "- Initiating sound effects: "
+msgstr "- Iniciando los efectos de sonido: "
+
+#: src/sfx.c:46
+msgid "Sound effects disabled.\n"
+msgstr "- Efectos de sonido desactivados.\n"
+
+#: src/sfx.c:50
+msgid "- Initiating music: "
+msgstr "- Iniciando la música: "
+
+#: src/sfx.c:56
+msgid "Music disabled.\n"
+msgstr "- Música desactivada.\n"
+
+#: src/switch.c:11
+msgid "- Initiating switches: "
+msgstr "- Iniciando los interruptores: "
+
+#: src/texter.c:16
+msgid "- Initiating fonts: "
+msgstr "- Iniciando los tipos de letra: "
+
+#: src/timer.c:12
+msgid "- Initiating timer: "
+msgstr "- Iniciando temporizador: "
+
+#: src/timer.c:91
+msgid "- Initiating timer (ph_count_frames): "
+msgstr "- Iniciando temporizador (ph_count_frames): "
+
+#: src/timer.c:93
+msgid "- Initiating timer (ph_target_incrementor): "
+msgstr "- Iniciando temporizador (ph_target_incrementor): "
+
+#: src/timer.c:95
+msgid "- Initiating timer (lp_script_target_incrementor): "
+msgstr "- Iniciando temporizador (lp_script_target_incrementor): "
+
+#: src/world.c:14
+msgid "- Initiating world data: "
+msgstr "- Iniciando datos del mundo: "
+
+#~ msgid "http://www.phantomaspc.org\n"
+#~ msgstr "http://www.phantomaspc.org\n"
+
+#~ msgid "Phantomas PC 1.0"
+#~ msgstr "Phantomas PC 1.3"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/control.c:295
+#~ msgid "Abort the game"
+#~ msgstr "Abortar el juego"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:65
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:68
+#, c-format
+#~ msgid "Keyboard shortcuts %d/2"
+#~ msgstr "Atajos de teclado %d/2"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:89
+#~ msgid "Unfortunately, there are some 'things' that won't let"
+#~ msgstr "Desafortunadamente, hay algunos bichos que no permitirán"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:90
+#~ msgid "your journey to be a pleasant trip."
+#~ msgstr "que tu aventura sea un viaje de placer."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:93
+#~ msgid ""
+#~ "He and the others will drain your energy at the moment you touch them!"
+#~ msgstr ""
+#~ "¡El y los otros absorberán tu energía en el momento en que los toques!"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:99
+#~ msgid "This is all you have to know to play. Good luck!"
+#~ msgstr "Esto es todo lo que tienes que saber para jugar. ¡Buena suerte!"
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:102
+#~ msgid "F1: Show the help screen."
+#~ msgstr "F1: Mostrar esta pantalla de ayuda."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:103
+#~ msgid "F2: Sound menu."
+#~ msgstr "F2: Menú del sonido."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:104
+#~ msgid "F3: Redefine keys."
+#~ msgstr "F3: Redefinir las teclas."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:105
+#~ msgid "F10: Abort the game."
+#~ msgstr "F10: Abortar el juego."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:106
+#~ msgid "F12: Take a screenshot."
+#~ msgstr "F12: Hacer una captura de pantalla."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:107
+#~ msgid "ESC: Show/hide the menu. / Hide the text boxes."
+#~ msgstr "ESC: Mostrar/Ocultar el menú. / Esconder las cajas de texto."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:108
+#~ msgid "Alt+Enter: Switch to fullscreen / windowed mode."
+#~ msgstr "Alt+Enter: Cambiar entre los modos pantalla completa / ventana."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:111
+#~ msgid "Alt+F4: Quit the game."
+#~ msgstr "Alt+F4: Quitar el juego."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/help.c:112
+#~ msgid "Control+Q: Quit the game."
+#~ msgstr "Control+Q: Quitar el juego."
+
+# c:\ppc\PhantomasPC-0.2-devel\src/menu.c:154
+#~ msgid "Version 1.0"
+#~ msgstr "Versión 1.0"
+
+#~ msgid "- Checking files: "
+#~ msgstr "- Comprobando los ficheros: "
+
+#, c-format
+#~ msgid "Fatal error: Can't find the file %s"
+#~ msgstr "Error fatal: No se puede encontrar el fichero %s"
+
+#, c-format
+#~ msgid "Fatal error: The file %s is empty!"
+#~ msgstr "Error fatal: el fichero %s está vacío."
+
+#~ msgid "You are under arrest..."
+#~ msgstr "Estás arrestado..."
+
+#~ msgid "Phantomas PC version 1.0"
+#~ msgstr "Phantomas PC versión 1.0"

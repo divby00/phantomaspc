@@ -1,0 +1,10 @@
+Package: phantomaspc
+Version: 1.3
+Section: base
+Priority: optional
+Architecture: amd64
+Depends: liballegro4.4,liblua5.4-0
+Installed-Size: 7640.81
+Maintainer: Division By 0 <divisionby0x00@gmail.com>
+Description: Phantomas remake
+ A platform game where you need to guide a thief around a mansion hunting some treasures and avoiding the enemies.

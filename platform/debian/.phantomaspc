@@ -1,0 +1,41 @@
+-- Configuration file for Phantomas PC
+-- Lines starting with -- are comments.
+
+-- Horizontal resolution, recommended 320.
+xres = 320
+-- Vertical resolution, recommended 240.
+yres = 240
+-- Full screen? 0 -> no, 1 -> yes.
+fullscreen = 0
+-- Stretch screen? 0 -> no, 1 -> yes.
+stretch = 1
+-- Stretch screen to this width.
+stretchx = 1280
+-- Stretch screen to this height.
+stretchy = 960
+-- Show tips in the game? 0 -> no, 1 -> yes.
+show_tips = 1
+-- Enable sounds and music? 0 -> no, 1 -> yes.
+enable_sound = 1
+-- Enable sound effects? 0 -> no, 1 -> yes.
+sfx = 1
+-- Enable music? 0 -> no, 1 -> yes.
+music = 1
+-- Sound effects volume 0 (min.) - 255 (max.)
+sfxvol = 255
+-- Music volume 0 (min.) - 255 (max.)
+musicvol = 255
+-- Surround sound.
+surround = 1
+-- Control type, 0 keyboard, 1 joystick.
+controltype = 0
+-- Scan code of key for UP.
+keyup = 84
+-- Scan code of key for DOWN.
+keydown = 85
+-- Scan code of key for LEFT.
+keyleft = 82
+-- Scan code of key for RIGHT.
+keyright = 83
+-- Directory with the game data.
+datadir = "/usr/share/phantomaspc/data/"

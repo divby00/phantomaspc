@@ -1,0 +1,1323 @@
+al-main INFO: Allegro initialised (instance 1)
+Swicthing screen modes...
+al-gfx INFO: Called set_gfx_mode(1330072644, 800, 600, 0, 0).
+al-gfx INFO: First call, remembering console state.
+agl INFO: default_gfx_init: Trying to set up windowed mode...
+agl-win INFO: win_init(): Requested color depth: 32  Desktop color depth: 32
+agl-win INFO: win_init(): Setting up window.
+agl-win INFO: win_init(): Driver selected fullscreen: No
+agl-win INFO: win_init(): Setting pixel format.
+agl-win INFO: select_pixel_format(): Trying to set up temporary RC
+agl-win INFO: select_pixel_format(): ChoosePixelFormat()
+agl-win INFO: select_pixel_format(): SetPixelFormat()
+agl-win INFO: select_pixel_format(): CreateContext()
+agl-win INFO: select_pixel_format(): MakeCurrent()
+agl-win INFO: select_pixel_format(): GetExtensionsStringARB()
+agl-win INFO: select_pixel_format(): GetProcAddress()
+agl-win INFO: get_num_pixel_formats(): Attempting to use WGL_pf.
+agl-win INFO: select_pixel_format(): 92 formats.
+agl-win INFO: select_pixel_format(): Testing pixel formats:
+agl-win INFO: Format 1:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 0.0.0.0
+agl-win INFO: DblBuf: 0 Zbuf: 0 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 0 Samples: 0
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 1984
+agl-win INFO: Format 2:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 0 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 0 Samples: 0
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2240
+agl-win INFO: Format 3:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 0 Zbuf: 24 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 0 Samples: 0
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2112
+agl-win INFO: Format 4:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 0.0.0.0
+agl-win INFO: DblBuf: 0 Zbuf: 24 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 0 Samples: 0
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2112
+agl-win INFO: Format 5:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 24 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 0 Samples: 0
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2368
+agl-win INFO: Format 6:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 0.0.0.0
+agl-win INFO: DblBuf: 0 Zbuf: 16 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 0 Samples: 0
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2026
+agl-win INFO: Format 7:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 16 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 0 Samples: 0
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2282
+agl-win INFO: Format 8:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 0 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 0 Samples: 0
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2240
+agl-win INFO: Format 9:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 16 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 0 Samples: 0
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2282
+agl-win INFO: Format 10:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 24 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 0 Samples: 0
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2368
+agl-win INFO: Format 11:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 0.0.0.0
+agl-win INFO: DblBuf: 0 Zbuf: 0 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 2
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 1909
+agl-win INFO: Format 12:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 0 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 2
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2165
+agl-win INFO: Format 13:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 0.0.0.0
+agl-win INFO: DblBuf: 0 Zbuf: 16 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 2
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 1951
+agl-win INFO: Format 14:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 16 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 2
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2207
+agl-win INFO: Format 15:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 0.0.0.0
+agl-win INFO: DblBuf: 0 Zbuf: 24 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 2
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2037
+agl-win INFO: Format 16:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 24 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 2
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2293
+agl-win INFO: Format 17:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 0.0.0.0
+agl-win INFO: DblBuf: 0 Zbuf: 0 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 2
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 1909
+agl-win INFO: Format 18:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 0 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 2
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2165
+agl-win INFO: Format 19:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 0.0.0.0
+agl-win INFO: DblBuf: 0 Zbuf: 16 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 2
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 1951
+agl-win INFO: Format 20:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 16 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 2
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2207
+agl-win INFO: Format 21:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 0.0.0.0
+agl-win INFO: DblBuf: 0 Zbuf: 24 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 2
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2037
+agl-win INFO: Format 22:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 24 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 2
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2293
+agl-win INFO: Format 23:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 0.0.0.0
+agl-win INFO: DblBuf: 0 Zbuf: 0 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 4
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 1900
+agl-win INFO: Format 24:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 0 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 4
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2156
+agl-win INFO: Format 25:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 0.0.0.0
+agl-win INFO: DblBuf: 0 Zbuf: 16 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 4
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 1942
+agl-win INFO: Format 26:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 16 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 4
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2198
+agl-win INFO: Format 27:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 0.0.0.0
+agl-win INFO: DblBuf: 0 Zbuf: 24 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 4
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2028
+agl-win INFO: Format 28:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 24 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 4
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2284
+agl-win INFO: Format 29:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 0.0.0.0
+agl-win INFO: DblBuf: 0 Zbuf: 0 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 4
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 1900
+agl-win INFO: Format 30:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 0 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 4
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2156
+agl-win INFO: Format 31:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 0.0.0.0
+agl-win INFO: DblBuf: 0 Zbuf: 16 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 4
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 1942
+agl-win INFO: Format 32:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 16 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 4
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2198
+agl-win INFO: Format 33:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 0.0.0.0
+agl-win INFO: DblBuf: 0 Zbuf: 24 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 4
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2028
+agl-win INFO: Format 34:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 24 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 4
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2284
+agl-win INFO: Format 35:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 24 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 4
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2284
+agl-win INFO: Format 36:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 0.0.0.0
+agl-win INFO: DblBuf: 0 Zbuf: 0 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 8
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 1895
+agl-win INFO: Format 37:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 0 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 8
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2151
+agl-win INFO: Format 38:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 0.0.0.0
+agl-win INFO: DblBuf: 0 Zbuf: 16 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 8
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 1937
+agl-win INFO: Format 39:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 16 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 8
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2193
+agl-win INFO: Format 40:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 0.0.0.0
+agl-win INFO: DblBuf: 0 Zbuf: 24 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 8
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2023
+agl-win INFO: Format 41:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 24 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 8
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2279
+agl-win INFO: Format 42:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 0.0.0.0
+agl-win INFO: DblBuf: 0 Zbuf: 0 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 8
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 1895
+agl-win INFO: Format 43:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 0 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 8
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2151
+agl-win INFO: Format 44:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 0.0.0.0
+agl-win INFO: DblBuf: 0 Zbuf: 16 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 8
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 1937
+agl-win INFO: Format 45:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 16 Stereo: 0 Aux: 0 Stencil: 0
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 8
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2193
+agl-win INFO: Format 46:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 0.0.0.0
+agl-win INFO: DblBuf: 0 Zbuf: 24 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 8
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2023
+agl-win INFO: Format 47:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 24 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 1 Samples: 8
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2279
+agl-win INFO: Format 48:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: No
+agl-win INFO: RGBA: 8.8.8.0
+agl-win INFO: Accum: 16.16.16.0
+agl-win INFO: DblBuf: 0 Zbuf: 32 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.0
+agl-win INFO: Sample Buffers: 0 Samples: 0
+agl-win INFO: Decoded bpp: 24
+agl-scorer INFO: Score is : 655
+agl-win INFO: Format 49:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: No
+agl-win INFO: RGBA: 8.8.8.0
+agl-win INFO: Accum: 16.16.16.0
+agl-win INFO: DblBuf: 0 Zbuf: 16 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.0
+agl-win INFO: Sample Buffers: 0 Samples: 0
+agl-win INFO: Decoded bpp: 24
+agl-scorer INFO: Score is : 754
+agl-win INFO: Format 50:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: No
+agl-win INFO: RGBA: 8.8.8.0
+agl-win INFO: Accum: 16.16.16.0
+agl-win INFO: DblBuf: 1 Zbuf: 32 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.0
+agl-win INFO: Sample Buffers: 0 Samples: 0
+agl-win INFO: Decoded bpp: 24
+agl-scorer INFO: Score is : 911
+agl-win INFO: Format 51:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: No
+agl-win INFO: RGBA: 8.8.8.0
+agl-win INFO: Accum: 16.16.16.0
+agl-win INFO: DblBuf: 1 Zbuf: 16 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.0
+agl-win INFO: Sample Buffers: 0 Samples: 0
+agl-win INFO: Decoded bpp: 24
+agl-scorer INFO: Score is : 1010
+agl-win INFO: Format 52:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: No
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 0 Zbuf: 32 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.0
+agl-win INFO: Sample Buffers: 0 Samples: 0
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 903
+agl-win INFO: Format 53:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: No
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 0 Zbuf: 16 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.0
+agl-win INFO: Sample Buffers: 0 Samples: 0
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 1002
+agl-win INFO: Format 54:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: No
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 32 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.0
+agl-win INFO: Sample Buffers: 0 Samples: 0
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 1159
+agl-win INFO: Format 55:
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: No
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 16 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.0
+agl-win INFO: Sample Buffers: 0 Samples: 0
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 1258
+agl-win INFO: Format 56:
+agl-win INFO: Decoding: 
+agl-win INFO: Not RGBA mode
+agl-win INFO: Format 57:
+agl-win INFO: Decoding: 
+agl-win INFO: Not RGBA mode
+agl-win INFO: Format 58:
+agl-win INFO: Decoding: 
+agl-win INFO: Not RGBA mode
+agl-win INFO: Format 59:
+agl-win INFO: Decoding: 
+agl-win INFO: Not RGBA mode
+agl-win INFO: Format 60:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 61:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 62:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 63:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 64:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 65:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 66:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 67:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 68:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 69:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 70:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 71:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 72:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 73:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 74:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 75:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 76:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 77:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 78:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 79:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 80:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 81:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 82:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 83:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 84:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 85:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 86:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 87:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 88:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 89:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 90:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 91:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: Format 92:
+agl-win INFO: Decoding: 
+agl-win INFO: Can't draw to window
+agl-win INFO: select_pixel_format(): Best config is: 5
+agl-win INFO: Decoding: 
+agl-win INFO: Acceleration: Yes
+agl-win INFO: RGBA: 8.8.8.8
+agl-win INFO: Accum: 16.16.16.16
+agl-win INFO: DblBuf: 1 Zbuf: 24 Stereo: 0 Aux: 0 Stencil: 8
+agl-win INFO: Shift: 16.8.0.24
+agl-win INFO: Sample Buffers: 0 Samples: 0
+agl-win INFO: Decoded bpp: 32
+agl-scorer INFO: Score is : 2368
+agl-win INFO: win_init(): GLScreen: 800x600x32
+agl-win INFO: OpenGL Version: 4.4.0 - Build 20.19.15.4444
+agl-win INFO: Vendor: Intel
+agl-win INFO: Renderer: Intel(R) HD Graphics 5600
+
+agl-ext INFO: GLU Version : 1.2.2.0 Microsoft Corporation
+al-gfx INFO: The driver will wait for vsync.
+al-gfx INFO: set_gfx_card success for 800x600x32.
+Loading texture
+Converting textures
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_FLIP|, bitmap 64x64, 16 bpp.
+agl-tex INFO: internalformat: AUTO
+agl-tex INFO: make_texture_ex: Preselected texture format: GL_RGB, type: 0x8363
+agl-tex INFO: munge_bitmap: Flipping bitmap.
+agl-tex INFO: munge_bitmap: Copying bitmap.
+agl-tex INFO: munge_bitmap: Unflipping bitmap.
+agl-tex INFO: make_texture_ex: Picked internalformat: GL_RGB8
+agl-tex INFO: make_texture_ex: dest format=GL_RGB8, source format=GL_RGB, type=0x8363
+agl-tex INFO: do_texture_upload: Making texture: bpp: 16
+agl-tex INFO: do_texture_upload: Unpack row length: 64.
+agl-tex INFO: do_texture_upload: Uploaded texture: level 0, internalformat: GL_RGB8, 64x64, format: 0x1907, type: 0x8363.
+agl-tex INFO: do_texture_upload: GL Error code: 0x0
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_FLIP|, bitmap 64x64, 16 bpp.
+agl-tex INFO: internalformat: GL_RGB8
+agl-tex INFO: make_texture_ex: Preselected texture format: GL_RGB, type: 0x8363
+agl-tex INFO: munge_bitmap: Flipping bitmap.
+agl-tex INFO: munge_bitmap: Copying bitmap.
+agl-tex INFO: munge_bitmap: Unflipping bitmap.
+agl-tex INFO: make_texture_ex: dest format=GL_RGB8, source format=GL_RGB, type=0x8363
+agl-tex INFO: do_texture_upload: Making texture: bpp: 16
+agl-tex INFO: do_texture_upload: Unpack row length: 64.
+agl-tex INFO: do_texture_upload: Uploaded texture: level 0, internalformat: GL_RGB8, 64x64, format: 0x1907, type: 0x8363.
+agl-tex INFO: do_texture_upload: GL Error code: 0x0
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_FLIP|, bitmap 64x64, 16 bpp.
+agl-tex INFO: internalformat: GL_RGBA8
+agl-tex INFO: make_texture_ex: Preselected texture format: GL_RGB, type: 0x8363
+agl-tex INFO: munge_bitmap: Flipping bitmap.
+agl-tex INFO: munge_bitmap: Copying bitmap.
+agl-tex INFO: munge_bitmap: Unflipping bitmap.
+agl-tex INFO: make_texture_ex: dest format=GL_RGBA8, source format=GL_RGB, type=0x8363
+agl-tex INFO: do_texture_upload: Making texture: bpp: 16
+agl-tex INFO: do_texture_upload: Unpack row length: 64.
+agl-tex INFO: do_texture_upload: Uploaded texture: level 0, internalformat: GL_RGBA8, 64x64, format: 0x1907, type: 0x8363.
+agl-tex INFO: do_texture_upload: GL Error code: 0x0
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|, bitmap 64x64, 16 bpp.
+agl-tex INFO: internalformat: AUTO
+agl-tex INFO: make_texture_ex: Preselected texture format: GL_RGB, type: 0x8363
+agl-tex INFO: munge_bitmap: Flipping bitmap.
+agl-tex INFO: munge_bitmap: Copying bitmap.
+agl-tex INFO: munge_bitmap: Unflipping bitmap.
+agl-tex INFO: make_texture_ex: Picked internalformat: GL_RGB8
+agl-tex INFO: make_texture_ex: dest format=GL_RGB8, source format=GL_RGB, type=0x8363
+agl-tex INFO: do_texture_upload: Making texture: bpp: 16
+agl-tex INFO: do_texture_upload: Using SGIS_generate_mipmap for mipmap generation.
+agl-tex INFO: do_texture_upload: Unpack row length: 64.
+agl-tex INFO: do_texture_upload: Uploaded texture: level 0, internalformat: GL_RGB8, 64x64, format: 0x1907, type: 0x8363.
+agl-tex INFO: do_texture_upload: GL Error code: 0x0
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|, bitmap 64x64, 16 bpp.
+agl-tex INFO: internalformat: GL_RGB8
+agl-tex INFO: make_texture_ex: Preselected texture format: GL_RGB, type: 0x8363
+agl-tex INFO: munge_bitmap: Flipping bitmap.
+agl-tex INFO: munge_bitmap: Copying bitmap.
+agl-tex INFO: munge_bitmap: Unflipping bitmap.
+agl-tex INFO: make_texture_ex: dest format=GL_RGB8, source format=GL_RGB, type=0x8363
+agl-tex INFO: do_texture_upload: Making texture: bpp: 16
+agl-tex INFO: do_texture_upload: Using SGIS_generate_mipmap for mipmap generation.
+agl-tex INFO: do_texture_upload: Unpack row length: 64.
+agl-tex INFO: do_texture_upload: Uploaded texture: level 0, internalformat: GL_RGB8, 64x64, format: 0x1907, type: 0x8363.
+agl-tex INFO: do_texture_upload: GL Error code: 0x0
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|, bitmap 64x64, 16 bpp.
+agl-tex INFO: internalformat: GL_RGBA8
+agl-tex INFO: make_texture_ex: Preselected texture format: GL_RGB, type: 0x8363
+agl-tex INFO: munge_bitmap: Flipping bitmap.
+agl-tex INFO: munge_bitmap: Copying bitmap.
+agl-tex INFO: munge_bitmap: Unflipping bitmap.
+agl-tex INFO: make_texture_ex: dest format=GL_RGBA8, source format=GL_RGB, type=0x8363
+agl-tex INFO: do_texture_upload: Making texture: bpp: 16
+agl-tex INFO: do_texture_upload: Using SGIS_generate_mipmap for mipmap generation.
+agl-tex INFO: do_texture_upload: Unpack row length: 64.
+agl-tex INFO: do_texture_upload: Uploaded texture: level 0, internalformat: GL_RGBA8, 64x64, format: 0x1907, type: 0x8363.
+agl-tex INFO: do_texture_upload: GL Error code: 0x0
+Converting textures
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_FLIP|, bitmap 64x64, 24 bpp.
+agl-tex INFO: internalformat: AUTO
+agl-tex INFO: make_texture_ex: Preselected texture format: GL_RGB, type: 0x1401
+agl-tex INFO: munge_bitmap: Flipping bitmap.
+agl-tex INFO: munge_bitmap: Copying bitmap.
+agl-tex INFO: munge_bitmap: Unflipping bitmap.
+agl-tex INFO: make_texture_ex: Picked internalformat: GL_RGB8
+agl-tex INFO: make_texture_ex: dest format=GL_RGB8, source format=GL_RGB, type=0x1401
+agl-tex INFO: do_texture_upload: Making texture: bpp: 24
+agl-tex INFO: do_texture_upload: Unpack row length: 64.
+agl-tex INFO: do_texture_upload: Uploaded texture: level 0, internalformat: GL_RGB8, 64x64, format: 0x1907, type: 0x1401.
+agl-tex INFO: do_texture_upload: GL Error code: 0x0
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_FLIP|, bitmap 64x64, 24 bpp.
+agl-tex INFO: internalformat: GL_RGB8
+agl-tex INFO: make_texture_ex: Preselected texture format: GL_RGB, type: 0x1401
+agl-tex INFO: munge_bitmap: Flipping bitmap.
+agl-tex INFO: munge_bitmap: Copying bitmap.
+agl-tex INFO: munge_bitmap: Unflipping bitmap.
+agl-tex INFO: make_texture_ex: dest format=GL_RGB8, source format=GL_RGB, type=0x1401
+agl-tex INFO: do_texture_upload: Making texture: bpp: 24
+agl-tex INFO: do_texture_upload: Unpack row length: 64.
+agl-tex INFO: do_texture_upload: Uploaded texture: level 0, internalformat: GL_RGB8, 64x64, format: 0x1907, type: 0x1401.
+agl-tex INFO: do_texture_upload: GL Error code: 0x0
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_FLIP|, bitmap 64x64, 24 bpp.
+agl-tex INFO: internalformat: GL_RGBA8
+agl-tex INFO: make_texture_ex: Preselected texture format: GL_RGB, type: 0x1401
+agl-tex INFO: munge_bitmap: Flipping bitmap.
+agl-tex INFO: munge_bitmap: Copying bitmap.
+agl-tex INFO: munge_bitmap: Unflipping bitmap.
+agl-tex INFO: make_texture_ex: dest format=GL_RGBA8, source format=GL_RGB, type=0x1401
+agl-tex INFO: do_texture_upload: Making texture: bpp: 24
+agl-tex INFO: do_texture_upload: Unpack row length: 64.
+agl-tex INFO: do_texture_upload: Uploaded texture: level 0, internalformat: GL_RGBA8, 64x64, format: 0x1907, type: 0x1401.
+agl-tex INFO: do_texture_upload: GL Error code: 0x0
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|, bitmap 64x64, 24 bpp.
+agl-tex INFO: internalformat: AUTO
+agl-tex INFO: make_texture_ex: Preselected texture format: GL_RGB, type: 0x1401
+agl-tex INFO: munge_bitmap: Flipping bitmap.
+agl-tex INFO: munge_bitmap: Copying bitmap.
+agl-tex INFO: munge_bitmap: Unflipping bitmap.
+agl-tex INFO: make_texture_ex: Picked internalformat: GL_RGB8
+agl-tex INFO: make_texture_ex: dest format=GL_RGB8, source format=GL_RGB, type=0x1401
+agl-tex INFO: do_texture_upload: Making texture: bpp: 24
+agl-tex INFO: do_texture_upload: Using SGIS_generate_mipmap for mipmap generation.
+agl-tex INFO: do_texture_upload: Unpack row length: 64.
+agl-tex INFO: do_texture_upload: Uploaded texture: level 0, internalformat: GL_RGB8, 64x64, format: 0x1907, type: 0x1401.
+agl-tex INFO: do_texture_upload: GL Error code: 0x0
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|, bitmap 64x64, 24 bpp.
+agl-tex INFO: internalformat: GL_RGB8
+agl-tex INFO: make_texture_ex: Preselected texture format: GL_RGB, type: 0x1401
+agl-tex INFO: munge_bitmap: Flipping bitmap.
+agl-tex INFO: munge_bitmap: Copying bitmap.
+agl-tex INFO: munge_bitmap: Unflipping bitmap.
+agl-tex INFO: make_texture_ex: dest format=GL_RGB8, source format=GL_RGB, type=0x1401
+agl-tex INFO: do_texture_upload: Making texture: bpp: 24
+agl-tex INFO: do_texture_upload: Using SGIS_generate_mipmap for mipmap generation.
+agl-tex INFO: do_texture_upload: Unpack row length: 64.
+agl-tex INFO: do_texture_upload: Uploaded texture: level 0, internalformat: GL_RGB8, 64x64, format: 0x1907, type: 0x1401.
+agl-tex INFO: do_texture_upload: GL Error code: 0x0
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|, bitmap 64x64, 24 bpp.
+agl-tex INFO: internalformat: GL_RGBA8
+agl-tex INFO: make_texture_ex: Preselected texture format: GL_RGB, type: 0x1401
+agl-tex INFO: munge_bitmap: Flipping bitmap.
+agl-tex INFO: munge_bitmap: Copying bitmap.
+agl-tex INFO: munge_bitmap: Unflipping bitmap.
+agl-tex INFO: make_texture_ex: dest format=GL_RGBA8, source format=GL_RGB, type=0x1401
+agl-tex INFO: do_texture_upload: Making texture: bpp: 24
+agl-tex INFO: do_texture_upload: Using SGIS_generate_mipmap for mipmap generation.
+agl-tex INFO: do_texture_upload: Unpack row length: 64.
+agl-tex INFO: do_texture_upload: Uploaded texture: level 0, internalformat: GL_RGBA8, 64x64, format: 0x1907, type: 0x1401.
+agl-tex INFO: do_texture_upload: GL Error code: 0x0
+Converting textures
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_FLIP|, bitmap 64x64, 32 bpp.
+agl-tex INFO: internalformat: AUTO
+agl-tex INFO: make_texture_ex: Preselected texture format: GL_RGBA, type: 0x1401
+agl-tex INFO: munge_bitmap: Flipping bitmap.
+agl-tex INFO: munge_bitmap: Copying bitmap.
+agl-tex INFO: munge_bitmap: Unflipping bitmap.
+agl-tex INFO: make_texture_ex: Picked internalformat: GL_RGB8
+agl-tex INFO: make_texture_ex: dest format=GL_RGB8, source format=GL_RGBA, type=0x1401
+agl-tex INFO: do_texture_upload: Making texture: bpp: 32
+agl-tex INFO: do_texture_upload: Unpack row length: 64.
+agl-tex INFO: do_texture_upload: Uploaded texture: level 0, internalformat: GL_RGB8, 64x64, format: 0x1908, type: 0x1401.
+agl-tex INFO: do_texture_upload: GL Error code: 0x0
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_FLIP|, bitmap 64x64, 32 bpp.
+agl-tex INFO: internalformat: GL_RGB8
+agl-tex INFO: make_texture_ex: Preselected texture format: GL_RGBA, type: 0x1401
+agl-tex INFO: munge_bitmap: Flipping bitmap.
+agl-tex INFO: munge_bitmap: Copying bitmap.
+agl-tex INFO: munge_bitmap: Unflipping bitmap.
+agl-tex INFO: make_texture_ex: dest format=GL_RGB8, source format=GL_RGBA, type=0x1401
+agl-tex INFO: do_texture_upload: Making texture: bpp: 32
+agl-tex INFO: do_texture_upload: Unpack row length: 64.
+agl-tex INFO: do_texture_upload: Uploaded texture: level 0, internalformat: GL_RGB8, 64x64, format: 0x1908, type: 0x1401.
+agl-tex INFO: do_texture_upload: GL Error code: 0x0
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_FLIP|, bitmap 64x64, 32 bpp.
+agl-tex INFO: internalformat: GL_RGBA8
+agl-tex INFO: make_texture_ex: Preselected texture format: GL_RGBA, type: 0x1401
+agl-tex INFO: munge_bitmap: Flipping bitmap.
+agl-tex INFO: munge_bitmap: Copying bitmap.
+agl-tex INFO: munge_bitmap: Unflipping bitmap.
+agl-tex INFO: make_texture_ex: dest format=GL_RGBA8, source format=GL_RGBA, type=0x1401
+agl-tex INFO: do_texture_upload: Making texture: bpp: 32
+agl-tex INFO: do_texture_upload: Unpack row length: 64.
+agl-tex INFO: do_texture_upload: Uploaded texture: level 0, internalformat: GL_RGBA8, 64x64, format: 0x1908, type: 0x1401.
+agl-tex INFO: do_texture_upload: GL Error code: 0x0
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|, bitmap 64x64, 32 bpp.
+agl-tex INFO: internalformat: AUTO
+agl-tex INFO: make_texture_ex: Preselected texture format: GL_RGBA, type: 0x1401
+agl-tex INFO: munge_bitmap: Flipping bitmap.
+agl-tex INFO: munge_bitmap: Copying bitmap.
+agl-tex INFO: munge_bitmap: Unflipping bitmap.
+agl-tex INFO: make_texture_ex: Picked internalformat: GL_RGB8
+agl-tex INFO: make_texture_ex: dest format=GL_RGB8, source format=GL_RGBA, type=0x1401
+agl-tex INFO: do_texture_upload: Making texture: bpp: 32
+agl-tex INFO: do_texture_upload: Using SGIS_generate_mipmap for mipmap generation.
+agl-tex INFO: do_texture_upload: Unpack row length: 64.
+agl-tex INFO: do_texture_upload: Uploaded texture: level 0, internalformat: GL_RGB8, 64x64, format: 0x1908, type: 0x1401.
+agl-tex INFO: do_texture_upload: GL Error code: 0x0
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|, bitmap 64x64, 32 bpp.
+agl-tex INFO: internalformat: GL_RGB8
+agl-tex INFO: make_texture_ex: Preselected texture format: GL_RGBA, type: 0x1401
+agl-tex INFO: munge_bitmap: Flipping bitmap.
+agl-tex INFO: munge_bitmap: Copying bitmap.
+agl-tex INFO: munge_bitmap: Unflipping bitmap.
+agl-tex INFO: make_texture_ex: dest format=GL_RGB8, source format=GL_RGBA, type=0x1401
+agl-tex INFO: do_texture_upload: Making texture: bpp: 32
+agl-tex INFO: do_texture_upload: Using SGIS_generate_mipmap for mipmap generation.
+agl-tex INFO: do_texture_upload: Unpack row length: 64.
+agl-tex INFO: do_texture_upload: Uploaded texture: level 0, internalformat: GL_RGB8, 64x64, format: 0x1908, type: 0x1401.
+agl-tex INFO: do_texture_upload: GL Error code: 0x0
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|, bitmap 64x64, 32 bpp.
+agl-tex INFO: internalformat: GL_RGBA8
+agl-tex INFO: make_texture_ex: Preselected texture format: GL_RGBA, type: 0x1401
+agl-tex INFO: munge_bitmap: Flipping bitmap.
+agl-tex INFO: munge_bitmap: Copying bitmap.
+agl-tex INFO: munge_bitmap: Unflipping bitmap.
+agl-tex INFO: make_texture_ex: dest format=GL_RGBA8, source format=GL_RGBA, type=0x1401
+agl-tex INFO: do_texture_upload: Making texture: bpp: 32
+agl-tex INFO: do_texture_upload: Using SGIS_generate_mipmap for mipmap generation.
+agl-tex INFO: do_texture_upload: Unpack row length: 64.
+agl-tex INFO: do_texture_upload: Uploaded texture: level 0, internalformat: GL_RGBA8, 64x64, format: 0x1908, type: 0x1401.
+agl-tex INFO: do_texture_upload: GL Error code: 0x0
+Converted all textures
+agl-font INFO: crop_font_range: skipping glyph 0
+agl-font INFO: convert_allegro_font_to_texture: Total area of glyphs: 3563 pixels (6269 pixels gross) - max_w: 8, max_h: 8
+agl-font INFO: look_for_texture: candidate size: 8x512
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 8x512, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 08951AB8, beg: 32, end: 128
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 32x128
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 32x128, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 32, end: 128
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 16x256
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 16x256, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 32, end: 128
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 64x64
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 64x64, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 32, end: 128
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 256x16
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 256x16, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BA9C0, beg: 32, end: 128
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 128x32
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 128x32, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 32, end: 128
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 512x8
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 512x8, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 32, end: 128
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 512x16
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 512x16, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BAD78, beg: 32, end: 128
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 64x128
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 64x128, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 32, end: 128
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 16x512
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 16x512, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 08951AB8, beg: 32, end: 128
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 256x32
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 256x32, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 32, end: 128
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 32x256
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 32x256, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 32, end: 128
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 128x64
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 128x64, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 32, end: 128
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 8x1024
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 8x1024, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 08951AB8, beg: 32, end: 128
+agl-font INFO: convert_allegro_font_to_texture: Using texture 8x1024x8 for font conversion.
+agl-font INFO: Want texture format: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 8x1024, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: munge_bitmap: Flipping bitmap.
+agl-tex INFO: munge_bitmap: Copying bitmap.
+agl-tex INFO: munge_bitmap: Unflipping bitmap.
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-tex INFO: do_texture_upload: Making texture: bpp: 8
+agl-tex INFO: do_texture_upload: Using SGIS_generate_mipmap for mipmap generation.
+agl-tex INFO: do_texture_upload: Unpack row length: 8.
+agl-tex INFO: do_texture_upload: Uploaded texture: level 0, internalformat: GL_INTENSITY8, 8x1024, format: 0x1903, type: 0x1401.
+agl-tex INFO: do_texture_upload: GL Error code: 0x0
+agl-font INFO: Texture ID is: 33
+agl-font INFO: convert_allegro_font_to_texture: Total area of glyphs: 3978 pixels (6802 pixels gross) - max_w: 8, max_h: 8
+agl-font INFO: look_for_texture: candidate size: 8x512
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 8x512, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 08955870, beg: 161, end: 256
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 32x128
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 32x128, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 161, end: 256
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 16x256
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 16x256, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 161, end: 256
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 64x64
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 64x64, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 161, end: 256
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 256x16
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 256x16, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BABE0, beg: 161, end: 256
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 128x32
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 128x32, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 161, end: 256
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 512x8
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 512x8, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 161, end: 256
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 512x16
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 512x16, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BA9C0, beg: 161, end: 256
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 64x128
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 64x128, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 161, end: 256
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 16x512
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 16x512, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 08955870, beg: 161, end: 256
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 256x32
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 256x32, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 161, end: 256
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 32x256
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 32x256, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 161, end: 256
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 128x64
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 128x64, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 161, end: 256
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 8x1024
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 8x1024, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 08955870, beg: 161, end: 256
+agl-font INFO: convert_allegro_font_to_texture: Using texture 8x1024x8 for font conversion.
+agl-font INFO: Want texture format: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 8x1024, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: munge_bitmap: Flipping bitmap.
+agl-tex INFO: munge_bitmap: Copying bitmap.
+agl-tex INFO: munge_bitmap: Unflipping bitmap.
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-tex INFO: do_texture_upload: Making texture: bpp: 8
+agl-tex INFO: do_texture_upload: Using SGIS_generate_mipmap for mipmap generation.
+agl-tex INFO: do_texture_upload: Unpack row length: 8.
+agl-tex INFO: do_texture_upload: Uploaded texture: level 0, internalformat: GL_INTENSITY8, 8x1024, format: 0x1903, type: 0x1401.
+agl-tex INFO: do_texture_upload: GL Error code: 0x0
+agl-font INFO: Texture ID is: 48
+agl-font INFO: convert_allegro_font_to_texture: Total area of glyphs: 6028 pixels (10054 pixels gross) - max_w: 8, max_h: 8
+agl-font INFO: look_for_texture: candidate size: 512x16
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 512x16, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BA360, beg: 256, end: 384
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 64x128
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 64x128, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 256, end: 384
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 16x512
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 16x512, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 08959AC8, beg: 256, end: 384
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 256x32
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 256x32, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 256, end: 384
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 32x256
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 32x256, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 256, end: 384
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 128x64
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 128x64, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 256, end: 384
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 8x1024
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 8x1024, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 08959AC8, beg: 256, end: 384
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 1024x8
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 1024x8, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 256, end: 384
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 512x32
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 512x32, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 256, end: 384
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 64x256
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 64x256, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 256, end: 384
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 256x64
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 256x64, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 256, end: 384
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 16x1024
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 16x1024, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 08959AC8, beg: 256, end: 384
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 128x128
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 128x128, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB00, beg: 256, end: 384
+agl-font INFO: sort_out_glyphs: Unable to fit all glyphs into the texture.
+agl-font INFO: look_for_texture: Conversion failed
+agl-font INFO: look_for_texture: candidate size: 1024x16
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 1024x16, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BA8B0, beg: 256, end: 384
+agl-font INFO: convert_allegro_font_to_texture: Using texture 1024x16x8 for font conversion.
+agl-font INFO: Want texture format: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 1024x16, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: munge_bitmap: Flipping bitmap.
+agl-tex INFO: munge_bitmap: Copying bitmap.
+agl-tex INFO: munge_bitmap: Unflipping bitmap.
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-tex INFO: do_texture_upload: Making texture: bpp: 8
+agl-tex INFO: do_texture_upload: Using SGIS_generate_mipmap for mipmap generation.
+agl-tex INFO: do_texture_upload: Unpack row length: 1024.
+agl-tex INFO: do_texture_upload: Uploaded texture: level 0, internalformat: GL_INTENSITY8, 1024x16, format: 0x1903, type: 0x1401.
+agl-tex INFO: do_texture_upload: GL Error code: 0x0
+agl-font INFO: Texture ID is: 63
+agl-font INFO: convert_allegro_font_to_texture: Total area of glyphs: 49 pixels (81 pixels gross) - max_w: 7, max_h: 7
+agl-font INFO: look_for_texture: candidate size: 8x8
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 8x8, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-font INFO: look_for_texture: Sorting on bmp: 007BEB30, beg: 8364, end: 8365
+agl-font INFO: convert_allegro_font_to_texture: Using texture 8x8x8 for font conversion.
+agl-font INFO: Want texture format: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: flags: AGL_TEXTURE_MIPMAP|AGL_TEXTURE_FLIP|AGL_TEXTURE_ALPHA_ONLY|, bitmap 8x8, 8 bpp.
+agl-tex INFO: internalformat: GL_INTENSITY8
+agl-tex INFO: make_texture_ex: Preselected texture format: 1903, type: 0x1401
+agl-tex INFO: munge_bitmap: Flipping bitmap.
+agl-tex INFO: munge_bitmap: Copying bitmap.
+agl-tex INFO: munge_bitmap: Unflipping bitmap.
+agl-tex INFO: make_texture_ex: dest format=GL_INTENSITY8, source format=1903, type=0x1401
+agl-tex INFO: do_texture_upload: Making texture: bpp: 8
+agl-tex INFO: do_texture_upload: Using SGIS_generate_mipmap for mipmap generation.
+agl-tex INFO: do_texture_upload: Unpack row length: 8.
+agl-tex INFO: do_texture_upload: Uploaded texture: level 0, internalformat: GL_INTENSITY8, 8x8, format: 0x1903, type: 0x1401.
+agl-tex INFO: do_texture_upload: GL Error code: 0x0
+agl-font INFO: Texture ID is: 65
+Converted font
+Setup OpenGL
+al-gfx INFO: Called set_gfx_mode(-1, 0, 0, 0, 0).
+al-gfx INFO: Closing graphics driver (664715A0) AllegroGL Windowed (Win32).
+al-gfx INFO: Closing, restoring original console state.
+al-gfx INFO: Graphic mode closed.
